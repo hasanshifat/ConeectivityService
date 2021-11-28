@@ -34,6 +34,7 @@ import 'package:connectivity_service/connectivity_service.dart';
 
 1. Add the provider in mateerial app
 
+```dart
 import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
@@ -63,8 +64,13 @@ class MyApp extends StatelessWidget {
   }
 }
 
+```
+
+
 2. Then add 'NetworkSensitive' where you need.
 
+
+```dart
 import 'package:connectivity_service/enum/network_sensitivity.dart';
 import 'package:flutter/material.dart';
 
@@ -89,6 +95,6 @@ class _HomepageState extends State<Homepage> {
     );
   }
 }
-
+```
 
 2. In 'NetworkSensitive' page you can create your own design on the offline       section. For now it is a simple text 'No Internet!' but you can design here anything.
