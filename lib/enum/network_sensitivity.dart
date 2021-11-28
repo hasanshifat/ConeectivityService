@@ -15,8 +15,12 @@ class NetworkSensitive extends StatelessWidget {
     if (connectionStatus == ConnectivitySatus.wifi) {
       return child;
     } else if (connectionStatus == ConnectivitySatus.offline) {
+      //You can design anything you want here.
       return const Center(
-        child: Text('No Internrt!'),
+        child: Text(
+          'No Internet!',
+          style: TextStyle(color: Colors.red, fontSize: 20),
+        ),
       );
     }
 

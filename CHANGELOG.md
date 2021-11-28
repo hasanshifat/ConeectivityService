@@ -1,3 +1,3 @@
-## 0.0.2
+## 0.0.3
 
-This is the first version of network connectivity status check with provider package.
+This is the third version of network connectivity status check with provider package.

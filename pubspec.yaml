@@ -1,6 +1,6 @@
 name: connectivity_service
 description: A new Flutter package project.
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/hasanshifat/ConeectivityService
 
 environment:
@@ -12,8 +12,8 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^0.13.3
-  path_provider: ^2.0.1
-  provider: ^5.0.0
+  path_provider: ^2.0.7
+  provider: ^6.0.1
 
 dev_dependencies:
   flutter_lints: ^1.0.0
