@@ -11,25 +11,24 @@ and the Flutter guide for
 [developing packages and plugins](https://flutter.dev/developing-packages). 
 -->
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+Coneectivity Service is for checking the internet connection using provider.
 
 ## Getting started
 
 TODO: List prerequisites and provide or point to information on how to
 start using the package.
+## Installation 
 
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
-
+1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
+```yaml
+dependencies:
+  connectivity_service: ^0.0.1
+```
+2. Import the package and use it in your Flutter App.
 ```dart
-const like = 'sample';
+import 'package:connectivity_service/connectivity_service.dart';
 ```
 
 ## Additional information

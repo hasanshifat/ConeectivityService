@@ -1,7 +1,7 @@
 name: connectivity_service
 description: A new Flutter package project.
 version: 0.0.1
-homepage: null
+homepage: https://github.com/hasanshifat/ConeectivityService
 
 environment:
   sdk: ">=2.15.0-116.0.dev <3.0.0"
