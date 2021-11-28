@@ -24,7 +24,7 @@ start using the package.
 1. Add the latest version of package to your pubspec.yaml (and run`dart pub get`):
 ```yaml
 dependencies:
-  connectivity_service: ^0.0.1
+  connectivity_service: ^0.0.2
 ```
 2. Import the package and use it in your Flutter App.
 ```dart
