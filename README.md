@@ -84,17 +84,14 @@ class Homepage extends StatefulWidget {
 class _HomepageState extends State<Homepage> {
   @override
   Widget build(BuildContext context) {
-    double deviceWidth = MediaQuery.of(context).size.width;
-    double deviceHeight = MediaQuery.of(context).size.height;
     return Scaffold(
       body: SafeArea(
         child: NetworkSensitive(
-          child: Container(child:Text('Your Design here)),
+          child:Text('Your design here'),
         ),
       ),
     );
   }
 }
 ```
-
 2. In 'NetworkSensitive' page you can create your own design on the offline       section. For now it is a simple text 'No Internet!' but you can design here anything.
