@@ -4,8 +4,7 @@ import 'package:provider/provider.dart';
 
 class NetworkSensitive extends StatelessWidget {
   final Widget child;
-  const NetworkSensitive({required Key key, required this.child})
-      : super(key: key);
+  const NetworkSensitive({required this.child});
 
   @override
   Widget build(BuildContext context) {
